@@ -32,7 +32,7 @@ const LoginPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault(); // Prevent the default form submission
 
-    const response = await fetch("http://localhost:5002/api/auth/login", { // Adjust the endpoint as necessary
+    const response = await fetch("https://meal-connect-updated.onrender.com/api/auth/login", { // Adjust the endpoint as necessary
       method: "POST", // Use POST for login
       headers: {
         "Content-Type": "application/json",
