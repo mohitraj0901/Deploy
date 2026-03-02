@@ -39,7 +39,7 @@ const RegistrationPage = () => {
   };
 
   try {
-    const response = await fetch("http://localhost:5002/api/auth/register", {
+    const response = await fetch("https://meal-connect-updated.onrender.com/api/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
