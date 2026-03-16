@@ -27,7 +27,7 @@ const FoodBankForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Food Bank form submitted:', formData);
-    navigate('/restaurant-food-page'); // Navigate to the Food Bank Details page
+    navigate('/food-bank-details'); // Navigate to the Food Bank Details page
   };
   return (
     <div className="max-w-6xl mx-auto p-6">
